@@ -29,7 +29,8 @@ runTrackErator /opt/genestack/bin/install-placement.sh
 runTrackErator /opt/genestack/bin/install-nova.sh
 runTrackErator /opt/genestack/bin/install-neutron.sh
 runTrackErator /opt/genestack/bin/install-magnum.sh
-runTrackErator /opt/genestack/bin/install-octavia.sh
+runTrackErator /opt/genestack/bin/install-ironic.sh
+#runTrackErator /opt/genestack/bin/install-octavia.sh
 
 # Install telemetry services
 if [ "${GENESTACK_INSTALL_TELEMETRY}" = true ]; then
